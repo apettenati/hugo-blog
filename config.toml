@@ -1,0 +1,49 @@
+baseURL = "https://flamanda.com"
+languageCode = "en-us"
+title = "Amanda's Blog"
+theme = "cactus"
+
+[params]
+  colortheme = "light" # dark, light, white, or classic
+  css = ["css/style-light-inverted.css"]
+  description = "Welcome to my blog!"
+  showProjects = true
+  projectsUrl = "https://github.com/apettenati"
+  dateFormat = "02 Jan 2006"
+
+[[params.social]]
+  name = "github"
+  link = "https://github.com/apettenati"
+
+[[params.social]]
+  name = "linkedin"
+  link = "https://www.linkedin.com/in/amandapettenati/"
+
+[[params.social]]
+  name = "email"
+  link = "amanda@pette.net" # no need for "mailto:" at the start
+
+[[params.social]]
+  name = "telegram-plane"
+  link = "https://telegram.me/flamanda"
+  
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+ 
+# [[menu.main]]
+# name = "About"
+# url = "/about"
+# weight = 4
+

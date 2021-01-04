@@ -1,0 +1,14 @@
+{
+   "list": [
+      {
+         "name":"NC Non-Profit Job Scraper",
+         "url":"https://github.com/apettenati/ncnonprofit-jobscraper",
+         "desc":"Scrapes a local website to find recently posted jobs that are sent via a telegram message"
+      },
+      {
+         "name":"Personal Blog",
+         "url":"https://github.com/apettenati/hugo-blog",
+         "desc":"Personal blog made with Hugo"
+      }
+   ]
+}
