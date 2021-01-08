@@ -10,6 +10,7 @@ theme = "cactus"
   showProjects = true
   projectsUrl = "https://github.com/apettenati"
   dateFormat = "02 Jan 2006"
+  rss = true
 
 [[params.social]]
   name = "github"
