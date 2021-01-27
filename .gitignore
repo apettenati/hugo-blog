@@ -67,3 +67,6 @@ node_modules/
 
 # Ignore public folder
 public
+
+# Ignore all posts
+content
