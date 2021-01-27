@@ -4,13 +4,14 @@ title = "Amanda's Blog"
 theme = "cactus"
 
 [params]
-  colortheme = "light" # dark, light, white, or classic
-  css = ["css/style-light-inverted.css"]
+  colortheme = "light-inverted" # dark, light, white, or classic
+  # css = ["css/style-light-inverted.css"]
   description = "Welcome to my blog!"
   showProjects = true
   projectsUrl = "https://github.com/apettenati"
   dateFormat = "02 Jan 2006"
   rss = true
+  enableEmjoi = true
 
 [[params.social]]
   name = "github"
