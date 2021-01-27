@@ -1,13 +1,17 @@
 <footer id="footer">
   <div class="footer-left">
-    Copyright  &copy; {{ now.Format "2006" }} {{ if .Site.Copyright }} {{ print .Site.Copyright }} {{ else }} {{ print .Site.Title }} {{ end }}
+    <nav>
+    <ul>
+      <li>Copyright  &copy; 2021</li><li>Icons by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a></li>
+    </ul>
+    </nav>
   </div>
   <div class="footer-right">
     <nav>
       <ul>
-        {{ range .Site.Menus.main }} 
+        {{- range .Site.Menus.main -}} 
         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-        {{ end }}
+        {{- end -}}
       </ul>
     </nav>
   </div>
