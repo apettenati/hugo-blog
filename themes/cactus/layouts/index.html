@@ -4,7 +4,7 @@
     {{ .Site.Params.description }}
   {{ end }}
   {{ if isset .Site.Params "social" }}
-      <p>
+      <p> You can find me here: 
       {{ $length := (len .Site.Params.social) }}
       {{ range $index, $elem := .Site.Params.social}}
       {{ if eq $elem.name "email" }}
@@ -27,6 +27,9 @@
       {{ end }}
       </p>
   {{ end }}
+
+  <div class="rc-scout"></div>
+
   </section>
 
   <section id="writing">

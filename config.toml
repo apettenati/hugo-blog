@@ -6,7 +6,7 @@ theme = "cactus"
 [params]
   colortheme = "light-inverted" # dark, light, white, or classic
   # css = ["css/style-light-inverted.css"]
-  description = "Welcome to my blog!"
+  description = "Hi, my name's Amanda! I'm a self-taught programmer with a passion for learning. I started this adventure in Fall of 2020 after a long career in Investment Banking. Below I'm writing about my journey and other thoughts I have along the way. Welcome to my blog!"
   showProjects = true
   projectsUrl = "https://github.com/apettenati"
   dateFormat = "02 Jan 2006"
