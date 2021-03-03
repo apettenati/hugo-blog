@@ -1,6 +1,11 @@
 {
    "list": [
       {
+         "name":"\"Pearl\"-sonal Finance Hacker",
+         "url":"https://github.com/apettenati/pearlhacks2021",
+         "desc":"Personal Finance Flowchart and checklist created at Pearl Hacks 2021 Hackathon"
+      },
+      {
          "name":"NC Non-Profit Job Scraper",
          "url":"https://github.com/apettenati/ncnonprofit-jobscraper",
          "desc":"Scrapes a local website to find recently posted jobs that are sent via a telegram message"
