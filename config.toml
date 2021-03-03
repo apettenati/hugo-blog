@@ -2,6 +2,7 @@ baseURL = "https://flamanda.com"
 languageCode = "en-us"
 title = "Amanda's Blog"
 theme = "cactus"
+enableEmoji = true
 
 [params]
   colortheme = "light-inverted" # dark, light, white, or classic
@@ -11,7 +12,6 @@ theme = "cactus"
   projectsUrl = "https://github.com/apettenati"
   dateFormat = "02 Jan 2006"
   rss = true
-  enableEmjoi = true
 
 [[params.social]]
   name = "github"
@@ -43,6 +43,11 @@ weight = 2
 name = "Tags"
 url = "/tags"
 weight = 3
+ 
+[[menu.main]]
+name = "Timeline"
+url = "/timeline"
+weight = 4
  
 # [[menu.main]]
 # name = "About"
