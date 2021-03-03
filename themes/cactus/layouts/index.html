@@ -3,6 +3,7 @@
   {{ if isset .Site.Params "description" }}
     {{ .Site.Params.description }}
   {{ end }}
+  
   {{ if isset .Site.Params "social" }}
       <p> You can find me here: 
       {{ $length := (len .Site.Params.social) }}
@@ -26,9 +27,10 @@
         {{ end }}
       {{ end }}
       </p>
+      <div class="rc-scout"></div>
+      <script async defer src="https://www.recurse-scout.com/loader.js?t=784abf074a1746c5f4b2843b01541607"></script>
   {{ end }}
 
-  <div class="rc-scout"></div>
 
   </section>
 

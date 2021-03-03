@@ -21,7 +21,7 @@ It's possible my stumbling around with Pelican led to me having a better underst
 
 ## Hosting
 
-I recently purchased my domain from google and decided to use Firebase to host my site. I don't see a need to pay for any services at this point, and this seems to be a popular free option. I found their [documentation](https://firebase.google.com/docs/hosting/?authuser=0#implementation_path) to be mostly straightforward and Hugo had [convenient instructions](https://gohugo.io/hosting-and-deployment/hosting-on-firebase/) as well.
+I recently purchased my domain from Google and decided to use Firebase to host my site. I don't see a need to pay for any services at this point, and this seems to be a popular free option. I found their [documentation](https://firebase.google.com/docs/hosting/?authuser=0#implementation_path) to be mostly straightforward and Hugo had [convenient instructions](https://gohugo.io/hosting-and-deployment/hosting-on-firebase/) as well.
 
 ## Content
 
