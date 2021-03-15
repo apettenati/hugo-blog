@@ -1508,7 +1508,7 @@ pre {
 }
 pre code {
   display: block;
-  padding: 0;
+  padding: 10px;
   border: none;
 }
 code {
